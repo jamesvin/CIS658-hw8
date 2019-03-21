@@ -19,7 +19,7 @@
     console.log("Click!");
 
     // Replace URL below with the URL for your server.
-    ajax.open("GET", 'http://127.0.0.1:3000/users.json');
+    ajax.open("GET", 'https://bugtrackingbyjames.herokuapp.com/users.json');
     ajax.onreadystatechange = function () {
       console.log("Ajax state: " + ajax.readyState);
       if (ajax.readyState === 4 && ajax.status === 200) {
